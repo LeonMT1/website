@@ -8,5 +8,5 @@ Namen:
 Ideen:
 - Suchfeld
 - Filtern (Zwischen Kategorieren, Tag Filter)
-- Sortieren (zwischen (Beliebteste), Meistgedownloadeste, Meiste Aufrufe)
+- Sortieren (zwischen (Beliebteste), Meistgedownloadeste, Meiste Aufrufe) (Leistung, Qualität, Auflösung)
 - (Community-Bereich)
