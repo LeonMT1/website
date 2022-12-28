@@ -1,46 +1,189 @@
-<h1>Spacemetics</h1> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
 
-<h1>Capes</h1>
-<a href="capes.html">capes</a><br><!--Bild-->
-Animierte Capes mit Physics und mehr!
+<body>
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <style>
+        /* Stil für das Navigations-Element */
+        nav {
+          background-color: rgb(20, 20, 20);
+          box-shadow: 0px 0px 22px 0px #000000;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          height: 80px;        
+          margin: 0;
+          padding: 0;
+          position: sticky;
+          top: 0;
+          
+          
+        }
+    
+        /* Stil für die Links im Navigations-Element */
+        nav .text {
+          text-decoration: none;
+          font-family: 'Franklin Gothic Bold', 'Arial Narrow', Arial, sans-serif;
+          font-weight: bold;
+          color: white;
+          font-weight: 2500;
+          font-size: small;
+          margin-right: 10px;
+          margin-top: 10;
+        }
+    
+        nav a:hover {
+          color: rgb(140, 1, 196);        
+        }
 
-<h1>Wings</h1>
-<a href="wings.html">Wings</a><br><!--Bild-->
-Animierte Wings und mehr!
+        .text {
+            padding-top: 29px;
+        }
 
-<h1>Bandana</h1>
-<a href="bandana.html">bandana</a><br><!--Bild-->
-Animierte Bandanas und mehr!
+        .icons {
+            padding-top: 15px;
+            padding-right: 200px;
+        }
 
-<h1>Pets</h1>
-<a href="pets.html">pets</a><br><!--Bild-->
-Animierte Pets!
+      </style>
+    </head>
+    <body>
+      <nav>
 
-<h1>Hats</h1>
-<a href="hats.html">hats</a><br><!--Bild-->
-Coole Hats und mehr!
-<br>
-<form> <p>Suche: <input type="text" size="20" maxlength="20" /></p> </form> <form id=""></form>
-<form id="make_checkbox_select">
-    <select name="Filter">
-        <option data-count="2" value="Cape">Cape</option>
-        <option data-count="3" value="Bandana">Bandana</option>
-        <option data-count="4" value="Hats">Hats</option>
-        <option data-count="5" value="Pets">Pets</option>
-    </select>
-    <input type="Submit">
-</form>                                                                        <!--<label for="Sortieren"></label>-->
-<div class="dropdown">
-    <button>Sortieren</button>
-    <div class="dropdown-content">
-        <a href="https://www.youtube.de">Meistedownloads</a>
-        <a href="https://www.youtube.de">Meisteaufrufe</a>
+        <div class="Logo">
+            <a href="index.html"><img src="LogoWhite.png" alt="Bild1" onmouseover="this.src='LogoLila.png'" onmouseout="this.src='LogoWhite.png'">
+        </div>
+
+
+        
+        <div class="text">
+            <a href="about.html">About Us</a>
+            <a href="news.html">News</a>
+            <a href="/Kontakt.html">Contact</a>
+            <a href="impressum.html">Imprint</a>
+        </div>
+
+      </nav>
+      <div class="slideshow">
+        <a href="about.html"><img src="Bild1.png"></a>
+        <a href="capes.html"><img src="Bild2.jpg"></a>
+        <a href="wings.html"><img src="Bild3.jpg"></a>
+        <a href="hats.html"><img src="Bild4.jpg"></a>
+        <a href="bandana.html"><img src="Bild1.png"></a>
+        <a href="pets.html"><img src="Bild1.png"></a>
     </div>
-</div>
-<br>
-<br>
-<a href="about.html">About</a><br>
-<a href="impressum.html">Impressum</a>
-<a href="datenschutz.html">Datenschutz</a><br>
-<a href="testlado2.html">Ladotest</a>
-<a href="testleon.html">Leontest</a>
+</body>
+
+<style>
+        body {
+        background-color: rgb(19, 19, 19);
+        margin: 0;
+        padding: 0;
+      }
+</style>
+<head>
+    <style>
+      .Logo img {
+        width: 200px;
+        height: 30px;
+        margin: 30%;
+        align-items: center;
+        margin-top: 25px;
+        transition: all 12.5s;
+      }
+    
+    </style>
+</head>
+
+<body>
+    <footer>
+        <footer>
+            <style>
+                footer {
+                    background-color: rgb(20, 20, 20);
+                    color: #fff;
+                    box-shadow: 0px 0px 22px 0px #000000;
+
+                    box-sizing: content-box;
+
+                    height: 50px;
+                    bottom: 0;
+                    width: 100%;
+                    height: auto;        
+                    padding:20;
+
+
+                    margin: 0 auto;
+
+
+                    flex-direction: row;
+                    text-decoration: none;
+                    color: white;
+                    font-family: 'Franklin Gothic Bold', 'Arial Narrow', Arial, sans-serif;
+                    font-weight: bold;
+                    font-weight: 2500;
+                    font-size: medium;
+                    display: flex;
+                    align-items: center;
+                    
+                }
+                
+                /* Platziere den Footer am Ende der Seite */
+                body {
+                    display: flex;
+                    flex-direction: column;
+                    min-height: 100vh;
+                    overflow-x: hidden;
+                }
+                footer {
+                    margin-top: auto;
+                }  
+
+                footer p {
+                  padding: 10px;
+                }
+
+                a{
+                  display: inline-block;
+                  text-decoration: none;
+                  color: white;
+                  font-family: 'Franklin Gothic Bold', 'Arial Narrow', Arial, sans-serif;
+                  font-weight: bold;
+                  font-size: medium;
+                    margin-right: 12px;
+                    font-weight: bold;
+                    font-weight: 2500;
+                    
+                }
+
+                @media (max-width: 768px) {
+                footer {
+                    width: auto; /* Das Footer-Element nimmt nur die benötigte Breite ein */
+                      }
+                    }
+
+                    footer a:hover {
+          color: rgb(140, 1, 196);      
+                    }
+            </style>
+
+        <footer>
+            <p><a href="impressum.html">Imprint</a></p>
+            <p><a href="datenschutz.html">Privacy Policy</a></p>
+            <p><a href="about.html">Copyright by Spacemetics.Team</p></a>
+        </footer>
+    </footer>
+</body>
+
+
+
+
+</html>
