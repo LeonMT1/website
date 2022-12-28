@@ -1,6 +1,6 @@
 <body class="nav">
     <nav>
-        <a href="index.html"><img src="LogoWhite.png" width="200"></a>
+        <a href="index.html"><img src="/assets/LogoWhite.png" width="200"></a>
         <ul>
             <li><a href="about.html">About Us</a></li>
             <li><a href="Kontakt.html">Contact</a></li>
@@ -73,31 +73,65 @@
 <style>
     /* Definieren Sie das Aussehen der Produktbox */
     .product-box {
-      display: flex;
-      flex-direction: column;
-      width: 300px;
-      height: 500px;
-      background-color: rgb(31, 31, 31);
-      border: false;
-      margin: 10px;
-      padding: 10px;
-      border-radius: 10px;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 500px;
+        background-color: rgb(31, 31, 31);
+        border: false;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        align-items: center;
     }
   
     /* Definieren Sie das Aussehen der Produktbilder */
     .product-box img {
-      width: 100%;
+    
+      width: 300px;
       height: 440px;
       object-fit: cover;
       border-radius: 10px;
+      transition-duration: 0.5s;
     }
   </style>
   
   <!-- Erstellen Sie eine Liste mit Produkten -->
   <ul>
     <li class="product-box">
-      <a href="/capes/cookiecape/cookiecape.html"><img src="/capes/cookiecape/IMG_20221227_182853.jpg" alt="Product 1"></a>
+      <a href="/capes/cookiecape/cookiecape.html"><img src="/capes/cookiecape/IMG_20221227_182853.jpg"></a>
       <a href="/capes/cookiecape/cookiecape.html"><button>Hier zum Cookie Cape</button></a>
+    </li>
+    <li class="product-box">
+        <a href="/capes/cookiecape/cookiecape.html"><img src="/capes/cookiecape/IMG_20221227_182853.jpg"></a>
+        <a href="/capes/cookiecape/cookiecape.html"><button>Hier zum Cookie Cape</button></a>
+      </li>
+      <li class="product-box">
+        <a href="/capes/cookiecape/cookiecape.html"><img src="/capes/cookiecape/IMG_20221227_182853.jpg"></a>
+        <a href="/capes/cookiecape/cookiecape.html"><button>Hier zum Cookie Cape</button></a>
+      </li>
+      <li class="product-box">
+        <a href="/capes/cookiecape/cookiecape.html"><img src="/capes/cookiecape/IMG_20221227_182853.jpg"></a>
+        <a href="/capes/cookiecape/cookiecape.html"><button>Hier zum Cookie Cape</button></a>
+      </li>
+      <li class="product-box">
+        <a href="/capes/cookiecape/cookiecape.html"><img src="/capes/cookiecape/IMG_20221227_182853.jpg"></a>
+        <a href="/capes/cookiecape/cookiecape.html"><button>Hier zum Cookie Cape</button></a>
+      </li>
+      <li class="product-box">
+        <a href="/capes/cookiecape/cookiecape.html"><img src="/capes/cookiecape/IMG_20221227_182853.jpg"></a>
+        <a href="/capes/cookiecape/cookiecape.html"><button>Hier zum Cookie Cape</button></a>
+      </li>
+      <li class="product-box">
+        <a href="/capes/cookiecape/cookiecape.html"><img src="/capes/cookiecape/IMG_20221227_182853.jpg"></a>
+        <a href="/capes/cookiecape/cookiecape.html"><button>Hier zum Cookie Cape</button></a>
+      </li>
+    <li class="product-box">
+      <a href="/capes/cookiecape/cookiecape.html"><img src="/capes/cookiecape/IMG_20221227_182853.jpg"></a>
+      <a href="/capes/cookiecape/cookiecape.html"><button>Hier zum Cookie Cape</button></a>
+    </li>
+  </ul>
 
 <style>
     button {
@@ -120,4 +154,54 @@
     button:hover {
         background-color: rgb(140, 1, 196);
         transform: scale(1.1);}
+
+    img:hover {
+        transform: scale(1.05);
+    }
 </style>
+<body>
+    <footer>
+        <footer>
+            <style>
+                footer {
+                    background-color: rgb(31, 31, 31);
+                    color: #fff;
+                    padding: 20px;
+                }
+                
+                /* Platziere den Footer am Ende der Seite */
+                body {
+                    display: flex;
+                    flex-direction: column;
+                    min-height: 100vh;
+                }
+                footer {
+                    margin-top: auto;
+                }  
+                footer p {
+                    color: rgb(255, 255, 255);
+                    font-family: 'Franklin Gothic Bold', 'Arial Narrow', Arial, sans-serif;
+                    margin-right: 12px;
+                    font-weight: bold;
+                    font-weight: 2500;
+                    font-size: large;
+                    text-decoration: none;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-family: 'Franklin Gothic Bold', 'Arial Narrow', Arial, sans-serif;
+                    margin-right: 12px;
+                    font-weight: bold;
+                    font-weight: 2500;
+                    font-size: medium;
+                }
+            </style>
+        <footer>
+            <a href="impressum.html">Imprint</a></p>
+            <a href="datenschutz.html">Privacy Policy</a></p>
+            <a href="about.html">Copyright by Spacemetics.Team</p></a>
+        </footer>
+    </footer>
+</body>
