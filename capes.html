@@ -1,4 +1,4 @@
-<body>
+<body class="nav">
     <nav>
         <a href="index.html"><img src="LogoWhite.png" width="200"></a>
         <ul>
@@ -8,7 +8,7 @@
     </nav>
 </body>
 
-<style>
+<style class="nav">
 
     body {
         margin: 0;
@@ -69,42 +69,55 @@
     box-shadow: 0px 0px 22px 0px #000000;
     }
 </style>
-<script src="cape.js"></script>
-<form> <p>Suche: <input type="text" size="20" maxlength="20" /></p> </form> <form id=""></form>
-<a href="#" onclick="message()">Test</a>
-<body>
-    <footer>
-        <footer>
-            <style>
-                footer {
-                    background-color: rgb(31, 31, 31);
-                    color: #fff;
-                    padding: 20px;
-                }
-                
-                /* Platziere den Footer am Ende der Seite */
-                body {
-                    display: flex;
-                    flex-direction: column;
-                    min-height: 100vh;
-                }
-                footer {
-                    margin-top: auto;
-                }  
-                footer p {
-                    color: rgb(255, 255, 255);
-                    font-family: 'Franklin Gothic Bold', 'Arial Narrow', Arial, sans-serif;
-                    margin-right: 12px;
-                    text-decoration: none;
-                    font-weight: bold;
-                    font-weight: 2500;
-                    font-size: large;
-                }
-            </style>
-        <footer>
-            <p><a href="impressum.html">Imprint</a></p>
-            <p><a href="datenschutz.html">Privacy Policy</a></p>
-            <p>© 2022 by <a href="about.html">Spacemetics Team</p></a>
-        </footer>
-    </footer>
-</body>
+
+<style>
+    /* Definieren Sie das Aussehen der Produktbox */
+    .product-box {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      height: 500px;
+      background-color: rgb(31, 31, 31);
+      border: false;
+      margin: 10px;
+      padding: 10px;
+      border-radius: 10px;
+    }
+  
+    /* Definieren Sie das Aussehen der Produktbilder */
+    .product-box img {
+      width: 100%;
+      height: 440px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  </style>
+  
+  <!-- Erstellen Sie eine Liste mit Produkten -->
+  <ul>
+    <li class="product-box">
+      <a href="/capes/cookiecape/cookiecape.html"><img src="/capes/cookiecape/IMG_20221227_182853.jpg" alt="Product 1"></a>
+      <a href="/capes/cookiecape/cookiecape.html"><button>Hier zum Cookie Cape</button></a>
+
+<style>
+    button {
+        background-color: rgb(31, 31, 31);
+        color:rgb(255, 255, 255);
+        padding: 15px 32px;
+        text-align: center;
+        border-radius: 10px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition-duration: 0.7s;
+        height: 60px;
+        text-align: center;
+
+    }
+
+    button:hover {
+        background-color: rgb(140, 1, 196);
+        transform: scale(1.1);}
+</style>
